@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      to do list
+    </title>
+  </head>
+  <body style="background-color: black; color:aliceblue">
+    <h1>동욱이의 to do list</h1>
+    <input type="button" value="add" onclick="addList()">
+    
+    <script>
+      function addList() {
+        let task = prompt("add task");
+        let list1 = document.createElement("li");
+        let tasklist = document.createTextNode(task);
+        list1.appendChild(tasklist);
+        document.body.insertBefore(list1, null);
+      }
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: #212b58;
+}
+div {
+    margin: 0 auto;
+    width: 250px;
+}
+input {
+    width: 250px;
+}
+p {
+    opacity: 0.5;
+    font-size: x-small;
+    margin: 0%;
+}
+ul {
+    margin-bottom: 10px;
+}
